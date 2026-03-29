@@ -1,6 +1,6 @@
 import asyncio
 from langchain_core.prompts import ChatPromptTemplate
-from core.utils import kimi_llm, openai_llm, gemini_llm
+from app.core.utils import kimi_llm, openai_llm, gemini_llm
 from app.core.prompts import RAG_SYSTEM_PROMPT
 
 
