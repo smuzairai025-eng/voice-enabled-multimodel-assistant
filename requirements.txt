@@ -1,0 +1,12 @@
+firecrawl-py
+python-dotenv
+langchain-text-splitters
+fastapi 
+uvicorn 
+langchain 
+langchain-google-genai 
+langchain-groq
+langchain-openai 
+langchain-postgres 
+psycopg2-binary 
+pydantic
