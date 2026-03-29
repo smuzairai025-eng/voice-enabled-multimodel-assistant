@@ -2,13 +2,23 @@ from fastapi import FastAPI, HTTPException
 from app.models.schemas import QueryRequest, QueryResponse, IngestRequest, IngestResponse
 from app.services.rag_service import get_context, ingest_url
 from app.services.llm_service import generate_parallel_responses
-
+from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI(
     title="Voice-Enabled RAG Assistant API",
     description="Backend API for interacting with the AI Voice Assistant using parallel LLM responses.",
     version="1.0.0"
 )
+
+# Configuration
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  #Using wildcard as we do not know what will be our production frontend url
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
 
 @app.post("/api/ask", response_model=QueryResponse)
 async def ask_question(request: QueryRequest):
