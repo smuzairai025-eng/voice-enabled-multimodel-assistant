@@ -10,3 +10,4 @@ langchain-openai
 langchain-postgres 
 psycopg2-binary 
 pydantic
+pydantic-settings
