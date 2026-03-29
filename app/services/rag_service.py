@@ -3,7 +3,7 @@ import json
 from urllib.parse import urlparse
 from firecrawl import Firecrawl
 from langchain_text_splitters import RecursiveCharacterTextSplitter
-from core.utils import embeddings,vector_store
+from app.core.utils import embeddings,vector_store
 from app.core.config import settings
 from langchain_core.documents import Document
 
