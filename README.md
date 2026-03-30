@@ -3,9 +3,8 @@
 This repository contains the backend infrastructure for the Sunmarke AI Voice Assistant. It is a robust, asynchronous FastAPI application designed to handle Retrieval-Augmented Generation (RAG) and orchestrate simultaneous requests to three different Large Language Models (LLMs).
 
 ## 🚀 Live Deployment
-* **API Base URL:** `[INSERT_YOUR_RAILWAY_BACKEND_URL]`
-* **Health Check:** `[INSERT_YOUR_RAILWAY_BACKEND_URL]/`
-* **Ask Endpoint:** `[INSERT_YOUR_RAILWAY_BACKEND_URL]/api/ask`
+* **API Base URL:** `https://voice-enabled-multimodel-assistant-production.up.railway.app/`
+* **Ask Endpoint:** `https://voice-enabled-multimodel-assistant-production.up.railway.app/api/ask`
 
 ## 💻 Tech Stack
 * **Framework:** FastAPI (Python 3.12+)
