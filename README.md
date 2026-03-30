@@ -49,8 +49,8 @@ The backend is built with a clean separation of concerns:
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone [YOUR_BACKEND_REPO_URL]
-   cd [YOUR_BACKEND_FOLDER]'
+   git clone https://github.com/smuzairai025-eng/voice-enabled-multimodel-assistant.git
+   cd voice-enabled-assisstant'
 
 Install dependencies:
 
